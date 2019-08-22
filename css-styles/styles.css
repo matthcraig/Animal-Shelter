@@ -1,0 +1,24 @@
+
+.title{
+    font-family: verdana;
+}
+.heading{
+    font-family: verdana;
+}
+.animal-name{
+    font-family: verdana;
+    font-size:20px;
+    padding-top:50px;
+    text-decoration: underline;
+}
+
+.animal-description{
+    font-family: verdana;
+    width:325px;
+}
+
+.animal-description a {
+    font-style: italic;
+}
+
+
