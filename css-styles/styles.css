@@ -7,18 +7,59 @@
 }
 .animal-name{
     font-family: verdana;
-    font-size:20px;
-    padding-top:50px;
+    font-size:1.25em;
+    padding-top:4em;
     text-decoration: underline;
 }
 
 .animal-description{
     font-family: verdana;
-    width:325px;
+    line-height: 1.5;
 }
 
 .animal-description a {
     font-style: italic;
 }
+
+@media screen and (max-width:768px){
+    body{
+        font-size: 80%;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width:768px){
+    .animal-name{
+        padding-top:3em;
+    }
+}
+
+@media screen and (max-width:768px){
+    img{
+        height:200px;
+        width:auto; 
+    }
+}
+
+@media screen and (max-width:480px){
+    body{
+        font-size: 50%;
+        line-height: .5;
+    }
+}
+
+@media screen and (max-width:480px){
+    .animal-name{
+        padding-top:2em;
+    }
+}
+
+@media screen and (max-width:480px){
+    img{
+        height:125px;
+        width:auto; 
+    }
+}
+
 
 
